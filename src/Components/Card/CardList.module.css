@@ -1,0 +1,31 @@
+.lists{
+  display: block;
+  margin-bottom: 13px;
+}
+.details{
+  display: flex;
+  justify-content: space-around;
+}
+.info{
+  padding-left: 10px;
+}
+.info p{
+  color: #FFF;
+  margin-bottom: 8px;
+}
+.city span{
+  background: rgba(0, 0, 0, 0.56);
+  border-radius: 16px;
+  color: #FFFFFF;
+  padding: 6px 10px;
+  margin-left: 24px;
+}
+@media (max-width: 992px) {
+  .details{
+    flex-direction: column;
+    justify-content: space-around;
+  }
+  .info{
+    padding: 20px 0;
+  }
+}

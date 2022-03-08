@@ -1,0 +1,39 @@
+.Navbar{
+  background: #292929;
+  padding: 15px 0;
+}
+.Navbar ul{
+  display: flex;
+  padding-left: 0;
+  margin: 0;
+}
+ul li{
+  padding-right: 44px;
+}
+li a{
+  color: #D0CBCB;
+  text-decoration: auto;
+  /* font-family: Inter; */
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 22px; 
+}
+li a:hover{
+  color: #FFF; 
+
+}
+.is-active{
+  color: #FFF
+}
+.filter h5{
+  color: #D0CBCB;
+}
+.filter{
+  position: relative;
+}
+button{
+  background: transparent;
+  border: 0;
+  color: #FFF;
+}

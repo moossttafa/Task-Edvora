@@ -1,0 +1,32 @@
+.header{
+  background-color: #101010;
+  padding: 20px 0;
+}
+.logo h3{
+  /* font-family: SF Pro Display; */
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  text-transform: uppercase;
+  line-height: 43px;
+  color: #FFFFFF;
+  margin: 0;
+}
+.user-account{
+  display: flex;
+}
+.user-account h4{
+  /* font-family: Inter; */
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 43px;
+  margin: 0;
+  color: #FFFFFF;
+  padding-right: 25px;
+}
+.user-account img{
+  width: 44px;
+  height: 44px;
+  border-radius: 50%; 
+}
